@@ -1,0 +1,16 @@
+{
+ "jsonrpc":"2.0",
+ "method":"invoke",
+ "params":{
+      "type":1,
+      "chaincodeID":{
+        "name":"mycc"
+      },
+      "ctorMsg": {
+          "args":["query","b"]
+      },
+    "secureContext":"jim"
+   },
+  "id":5
+}
+

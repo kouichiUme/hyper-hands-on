@@ -1,0 +1,16 @@
+{
+  "jsonrpc": "2.0",
+  "method": "deploy",
+  "params": {
+    "type": 1,
+    "chaincodeID":{
+        "name": "mycc"
+    },
+    "ctorMsg": {
+        "args":["init", "a", "100", "b", "200"]
+    },
+    "secureContext": "jim"
+  },
+  "id": 1
+}
+
